@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Teko';
+  src: url('../../public/fonts/Teko-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('../../public/fonts/CabinetGrotesk-Variable.ttf');
+}
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Cabinet Grotesk',Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+
