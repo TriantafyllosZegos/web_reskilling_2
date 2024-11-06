@@ -1,0 +1,12 @@
+2024-10-25 17:38:43.777910+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO student (name, surname, age)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO student (name, surname, age) [42001-224]
+2024-10-25 17:43:41.317806+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO student (name, surname, age)[*]"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO student (name, surname, age) [42001-224]
+2024-10-25 17:45:20.058251+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STUDENTS" not found; SQL statement:
+INSERT INTO Students (name, surname, age) [42102-224]
+2024-10-27 23:31:45.755399+02:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]STUDENTS"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+STUDENTS [42001-224]
